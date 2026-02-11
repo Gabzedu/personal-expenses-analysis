@@ -1,3 +1,9 @@
+This project presents a comprehensive analysis of real-world financial data collected over a four-year period. The study is divided into two fundamental phases:
+
+Phase 1: Proof of Concept & Resource Management: A data-driven demonstration of how financial discipline and consistent monitoring allow for steady capital accumulation (Net Savings), even within a baseline income scenario (Minimum Wage). This phase highlights the power of long-term consistency over high-margin earnings.
+
+Phase 2: Predictive Analysis & Career Planning: Leveraging historical spending patterns to project a "Target Income" model. By analyzing real expenditure trends and personal growth objectives, this phase identifies the precise salary threshold required to sustain a balanced lifestyle and future financial well-being. It serves as a decision-support tool for salary negotiations and career transitions.
+
 ## Data Description
 The `data/raw` folder contains monthly personal expense records from 2022 to 2025.  
 The data was recorded manually over the years, is real, originally in Portuguese, and has not been modified.
