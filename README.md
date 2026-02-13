@@ -19,24 +19,25 @@ The objective is to demonstrate how disciplined financial organization enables l
 
 To analyze four years of income and expense data in order to evaluate whether consistent financial tracking and structured budgeting can generate long-term savings despite limited income.
 
+
 ### Key Question
 
 > Can an individual accumulate capital over four years while earning minimum wage through disciplined financial organization?
 
----
 
 ## Income vs. Expenses Overview (2022–2025)
 
-![Income vs Expenses](visuals/income_vs_expenses.png)
+![Yearly Income vs Expenses](visuals/yearly_income_expenses.png)
 
 ### Key Insight
+
+Over four years, total income reached €65,385 while total expenses were €56,625, resulting in €9,725 in net savings. This demonstrates the long-term impact of structured financial discipline.
 
 - Total Income: €65,385  
 - Total Expenses: €56,625  
 - Net Savings: €9,725  
 
 Despite earning minimum wage throughout the analyzed period, structured financial tracking enabled consistent yearly savings.
-
 This phase highlights that financial discipline — rather than income level alone — plays a critical role in long-term capital growth.
 
 ---
@@ -51,11 +52,17 @@ To build a forward-looking financial projection based on historical spending beh
 
 > Based on historical financial patterns, what income level is required to sustain desired living standards while maintaining realistic savings targets?
 
----
-
 ## Monthly Projection & Expense Structure
 
-![Future Financial Projection](visuals/future_projection.png)
+![Monthly Average Income](visuals/monthly_AVG_income.png)
+
+Monthly income shows variability throughout the year, with noticeable peaks toward the final quarter, reflecting income growth over time.
+
+## Average Expenses by Category
+
+![Average Expenses by Category](visuals/category_AVG_expenses.png)
+
+Rent represents the largest fixed cost, followed by groceries and projects/studies, highlighting the primary drivers of monthly expenditure.
 
 ### Key Insight
 
