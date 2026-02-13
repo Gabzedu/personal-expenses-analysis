@@ -1,6 +1,6 @@
-# 📊 Personal Financial Analysis (2022–2025)
+# Personal Financial Analysis (2022–2025)
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes personal income and expense data from 2022 to 2025 to evaluate financial performance, spending structure, and savings evolution over time.
 
@@ -8,7 +8,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze income growth over time  
 - Compare yearly income vs expenses  
@@ -18,7 +18,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, NumPy)
 - Jupyter Notebook
@@ -27,7 +27,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 📊 Phase 1 – Yearly Income vs Expenses (2022–2025)
+## Phase 1 – Yearly Income vs Expenses (2022–2025)
 
 <p align="center">
   <img src="visuals/yearly_income_expenses.png" alt="Yearly Income vs Expenses" width="700">
@@ -45,7 +45,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 📈 Phase 2 – Monthly Income Trend
+## Phase 2 – Monthly Income Trend
 
 <p align="center">
   <img src="visuals/monthly_AVG_income.png" alt="Monthly Income Trend" width="700">
@@ -58,7 +58,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 📂 Phase 3 – Average Expenses by Category
+## Phase 3 – Average Expenses by Category
 
 <p align="center">
   <img src="visuals/category_AVG_expenses.png" alt="Average Expenses by Category" width="700">
@@ -71,7 +71,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 🌐 Interactive Dashboard
+## Interactive Dashboard
 
 👉 **Explore the full interactive Tableau Dashboard here:**  
 [View Dashboard on Tableau Public]
@@ -81,7 +81,7 @@ The interactive version allows filtering by year, category, and detailed explora
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 1. Data cleaning and preparation in Python  
 2. Aggregation by year, month, and category  
@@ -91,7 +91,7 @@ The interactive version allows filtering by year, category, and detailed explora
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 - Income growth outpaced expense growth over time.
 - Savings performance improved year-over-year.
@@ -100,13 +100,13 @@ The interactive version allows filtering by year, category, and detailed explora
 
 ---
 
-## 🚀 Project Status
+## Project Status
 
 Completed and publicly available via Tableau Public.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Gabriela Rijo  
 Aspiring Data Analyst  
