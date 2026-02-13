@@ -8,6 +8,20 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
+## 📁 Data Description
+
+The dataset contains manually recorded personal financial data collected between 2022 and 2025. 
+
+Key characteristics of the dataset:
+
+- Data originally recorded in Portuguese
+- Income and expense tracking performed consistently over multiple years
+- Structural change observed in 2023 due to international relocation, reflected in both income and expense patterns
+- 2022 includes data from May onwards
+- 2026 data is excluded from analysis as it represents an incomplete year
+
+---
+
 ## Objectives
 
 - Analyze income growth over time  
