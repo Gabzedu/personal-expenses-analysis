@@ -1,128 +1,121 @@
-Personal Financial Analysis (2022–2025)
-Project Overview
+# Personal Financial Analysis (2022–2025)
+
+## Project Overview
 
 This project presents a comprehensive analysis of real-world personal financial data collected over a four-year period (2022–2025).
 
-The study is divided into two strategic phases:
+The study is structured into two strategic phases:
 
-Phase 1 – Income vs. Expenses: The Power of Consistency
+- Phase 1 – Income vs. Expenses: The Power of Consistency
+- Phase 2 – Future Financial Planning
 
-Phase 2 – Future Financial Planning
+The objective is to demonstrate how disciplined financial organization enables long-term capital accumulation — even while earning minimum wage — and to use historical data to define realistic future financial targets.
 
-The objective is to demonstrate how disciplined financial organization can generate capital growth over time — even while earning a minimum wage — and to use historical data to define realistic future financial targets.
+---
 
-🎯 Phase 1: Income vs. Expenses – The Power of Consistency
-Objective
+## Phase 1 – Income vs. Expenses (The Power of Consistency)
 
-To analyze four years of income and expense data in order to determine whether consistent financial organization enables long-term savings accumulation despite limited income.
+### Objective
 
-Key Question
+To analyze four years of income and expense data in order to evaluate whether consistent financial tracking and structured budgeting can generate long-term savings despite limited income.
 
-Can an individual accumulate capital over four years while earning minimum wage, through disciplined financial tracking and expense management?
+### Key Question
 
-Data Context
+> Can an individual accumulate capital over four years while earning minimum wage through disciplined financial organization?
 
-Data collected manually from May 2022 to February 2026
+---
 
-Analysis period: 2022–2025
+## Income vs. Expenses Overview (2022–2025)
 
-Real income and expense data
+![Income vs Expenses](visuals/income_vs_expenses.png)
 
-Country transition in 2023 (Portugal → Ireland), impacting salary and cost structure
+### Key Insight
 
-Individual profile: Single, no dependents
+- Total Income: €65,385  
+- Total Expenses: €56,625  
+- Net Savings: €9,725  
 
-The dataset includes:
+Despite earning minimum wage throughout the analyzed period, structured financial tracking enabled consistent yearly savings.
 
-Monthly income
+This phase highlights that financial discipline — rather than income level alone — plays a critical role in long-term capital growth.
 
-Monthly expenses
+---
 
-Category classification (Essential, Lifestyle, Unknown)
+## Phase 2 – Future Financial Planning
 
-Subcategories (Rent, Bills, Groceries, Transportation, Travel, etc.)
+### Objective
 
-Key Insight
+To build a forward-looking financial projection based on historical spending behavior and defined lifestyle goals.
 
-Over the four-year period:
+### Key Question
 
-Total Income: €65,385
+> Based on historical financial patterns, what income level is required to sustain desired living standards while maintaining realistic savings targets?
 
-Total Expenses: €56,625
+---
 
-Net Savings: €9,725
+## Monthly Projection & Expense Structure
 
-Despite earning minimum wage throughout this period, disciplined expense tracking and structured budgeting resulted in consistent annual savings.
+![Future Financial Projection](visuals/future_projection.png)
 
-This demonstrates that financial organization — not necessarily income level — plays a critical role in long-term capital accumulation.
+### Key Insight
 
-📊 Phase 2: Future Financial Planning
-Objective
+Historical analysis indicates:
 
-To build a forward-looking financial projection based on historical spending behavior and future lifestyle goals.
+- Basic monthly expenses: ~€1,000  
+- Desired comfort lifestyle spending: ~€1,500 average per month  
+- Realistic annual savings target: €10,000  
 
-Key Question
-
-Based on historical financial patterns, what income level is required to sustain desired living standards while maintaining realistic savings targets?
-
-Financial Projection Analysis
-
-From historical averages:
-
-Basic monthly expenses: ~€1,000
-
-Desired comfort lifestyle: ~€1,500 average monthly spending
-
-Realistic annual savings target: €10,000
-
-Calculated Ideal Annual Income:
+### Calculated Ideal Annual Income
 
 €32,000 per year
 
-This figure supports:
+This projected income level supports:
 
-Stable living costs
+- Stable essential expenses  
+- Lifestyle flexibility  
+- Structured savings growth  
+- Long-term financial stability  
 
-Lifestyle flexibility
+---
 
-Long-term financial growth
+## Data Cleaning & Preparation
 
-🧹 Data Cleaning & Preparation
-
-Data was initially recorded manually and later standardized for analysis.
+The data was manually recorded and later standardized for analytical purposes.
 
 Cleaning process included:
 
-Handling missing values
+- Handling missing values  
+- Standardizing category naming  
+- Converting date formats  
+- Creating Month and Year features  
+- Structuring categories for dashboard visualization  
 
-Standardizing category naming
+Processed datasets are available in the `data/processed` folder.
 
-Date formatting
+---
 
-Feature engineering (Month / Year extraction)
+## Technologies Used
 
-Structured categorization for dashboard visualization
+- Python (Pandas) – Data preparation and transformation  
+- Tableau – Data visualization and dashboard creation  
+- Git & GitHub – Version control and project documentation  
 
-Processed data is available in the data/processed folder.
+---
 
-🛠 Technologies Used
+## Interactive Dashboard
 
-Python (Pandas) – Data preparation and transformation
+View the full interactive dashboard here:  
+[Insert Tableau Public Link Here]
 
-Tableau – Dashboard creation and visual storytelling
+---
 
-Git/GitHub – Version control and documentation
-
-📈 Conclusion
+## Conclusion
 
 This project demonstrates that:
 
-Long-term financial stability is strongly correlated with consistent tracking and structured budgeting.
+- Long-term financial stability is strongly linked to disciplined tracking and expense management.
+- Income growth accelerates savings, but structured budgeting enables savings even under constrained income conditions.
+- Historical financial data can be leveraged to create realistic and actionable future projections.
+- Data-driven decision-making supports both financial awareness and strategic planning.
 
-Income growth accelerates savings, but discipline enables savings even under constrained conditions.
-
-Data-driven planning allows realistic financial forecasting.
-
-Historical data can be effectively leveraged to define actionable financial goals.
-
-Beyond its analytical value, this project reflects how personal data can be transformed into measurable strategic decisions.
+Beyond its analytical scope, this project reflects how structured personal data can be transformed into measurable and strategic life decisions.
