@@ -8,7 +8,7 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ---
 
-## 📁 Data Description
+## Data Description
 
 The dataset contains manually recorded personal financial data collected between 2022 and 2025. 
 
