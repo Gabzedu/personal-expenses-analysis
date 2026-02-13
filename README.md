@@ -100,6 +100,18 @@ The interactive version allows filtering by year, category, and detailed explora
 
 ---
 
+## Financial Projection & Target Income Estimation
+
+Based on the historical analysis (2022–2025), it is possible to estimate a sustainable target income aligned with:
+
+- Fixed cost structure  
+- Desired savings rate  
+- Long-term financial objectives  
+
+The analysis suggests that maintaining income growth above expense growth is critical to ensuring financial stability and consistent net savings improvement.
+
+---
+
 ## Project Status
 
 Completed and publicly available via Tableau Public.
