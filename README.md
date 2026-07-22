@@ -1,140 +1,108 @@
-# Personal Financial Analysis (2022–2025)
+# Personal Finances Analysis (2022–2025)
 
-## Project Overview
+## Problem Statement
 
-This project analyzes personal income and expense data from 2022 to 2025 to evaluate financial performance, spending structure, and savings evolution over time.
+This project analyses four years of personal income and expense data (2022–2025) to understand financial evolution over time, identify spending patterns, and evaluate savings performance.
 
-The objective is to transform raw financial data into meaningful insights through data cleaning, structured analysis, and interactive visualization using Tableau.
+**Key questions:**
+- How did income and expenses evolve year over year?
+- Which categories represent the largest share of spending?
+- What is the savings trend over time?
 
----
-
-## Data Description
-
-The dataset contains manually recorded personal financial data collected between 2022 and 2025. 
-
-Key characteristics of the dataset:
-
-- Data originally recorded in Portuguese
-- Income and expense tracking performed consistently over multiple years
-- Structural change observed in 2023 due to international relocation, reflected in both income and expense patterns
-- 2022 includes data from May onwards
-- 2026 data is excluded from analysis as it represents an incomplete year
+> 2026 data is excluded from this analysis as the year is incomplete and would distort annual comparisons.
 
 ---
 
-## Objectives
+## Data
 
-- Analyze income growth over time  
-- Compare yearly income vs expenses  
-- Identify spending distribution by category  
-- Evaluate savings performance  
-- Build an interactive Tableau dashboard  
+Manually recorded personal financial data collected between May 2022 and December 2025.
+
+- Source: Personal Excel files, consolidated into a single dataset
+- Two datasets: Income and Expenses
+- Income records: 195 rows
+- Expense records: 534 rows
+- Data originally recorded in Portuguese; categories standardised to English for analysis
+- Structural change in 2023 reflects international relocation from Portugal to Ireland
+
+**Note:** 2022 includes data from May onwards only.
+
+---
+
+## Data Cleaning & Transformation
+
+Performed in Python (Pandas):
+
+- Removed trailing whitespace from month names
+- Converted month column to ordered categorical for correct chronological sorting
+- Standardised subcategory names (title case, removed duplicates)
+- Converted Year and Amount columns to numeric types
+- Renamed ambiguous category "Card" to "Bank Fees"
+- Filtered out 2026 incomplete data
+
+---
+
+## Analysis & Visualisation
+
+### Yearly Income vs Expenses
+
+<p align="center">
+  <img src="visuals/yearly_income_expenses.png" width="700">
+</p>
+
+| Year | Income | Expenses | Net Savings | Savings Rate |
+|------|--------|----------|-------------|--------------|
+| 2022 | €9,267 | €8,671 | €596 | 6.4% |
+| 2023 | €15,450 | €14,103 | €1,347 | 8.7% |
+| 2024 | €17,709 | €15,403 | €2,306 | 13.0% |
+| 2025 | €22,960 | €18,448 | €4,512 | 19.7% |
+
+### Expenses by Category
+
+<p align="center">
+  <img src="visuals/category_expenses.png" width="700">
+</p>
+
+### Savings Rate Evolution
+
+<p align="center">
+  <img src="visuals/savings_rate.png" width="700">
+</p>
+
+### Interactive Dashboard
+
+👉 [View Dashboard on Tableau Public](https://public.tableau.com/views/projectpersonalfinances/Finaldashboard?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+## Key Insights
+
+- Income grew 148% over four years, from €9,267 to €22,960.
+- Expenses grew at a slower pace (113%), allowing savings to improve every year.
+- Savings rate increased from 6.4% in 2022 to 19.7% in 2025.
+- Rent is the largest expense category at €16,975 — 29% of total spending over four years.
+- Shopping (€8,066) and Groceries (€7,981) are the second and third largest categories.
+- Projects & Studies (€5,296) reflects investment in education and professional development during this period.
 
 ---
 
 ## Tools & Technologies
 
-- Python (Pandas, NumPy)
-- Jupyter Notebook
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook (Google Colab)
 - Tableau Public
 - Excel
 
 ---
 
-## Phase 1 – Yearly Income vs Expenses (2022–2025)
+## Next Steps
 
-<p align="center">
-  <img src="visuals/yearly_income_expenses.png" alt="Yearly Income vs Expenses" width="700">
-</p>
-
-**Key Insights:**
-- Income shows consistent growth from 2022 to 2025.
-- Expenses increased gradually but at a controlled rate.
-- Net savings improved over time.
-
-**2022–2025 Summary:**
-- Total Income: €65,385  
-- Total Expenses: €56,625  
-- Net Savings: €9,725  
-
----
-
-## Phase 2 – Monthly Income Trend
-
-<p align="center">
-  <img src="visuals/monthly_AVG_income.png" alt="Monthly Income Trend" width="700">
-</p>
-
-**Key Insights:**
-- Income varies across months.
-- Stronger income periods are visible towards the end of the year.
-- December represents the highest monthly income.
-
----
-
-## Phase 3 – Average Expenses by Category
-
-<p align="center">
-  <img src="visuals/category_AVG_expenses.png" alt="Average Expenses by Category" width="700">
-</p>
-
-**Key Insights:**
-- Rent is the largest expense category.
-- Groceries and Shopping follow as major recurring costs.
-- Lifestyle-related categories show moderate impact.
-
----
-
-## Interactive Dashboard
-
-👉 **Explore the full interactive Tableau Dashboard here:**  
-[View Dashboard on Tableau Public]
-(https://public.tableau.com/views/projectpersonalfinances/Finaldashboard?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-The interactive version allows filtering by year, category, and detailed exploration of income and expense behavior.
-
----
-
-## Methodology
-
-1. Data cleaning and preparation in Python  
-2. Aggregation by year, month, and category  
-3. Creation of calculated metrics (Total Income, Total Expenses, Net Savings)  
-4. Visualization development in Tableau  
-5. Dashboard design and layout optimization  
-
----
-
-## Key Takeaways
-
-- Income growth outpaced expense growth over time.
-- Savings performance improved year-over-year.
-- Rent remains the primary cost driver.
-- Financial stability increased significantly by 2025.
-
----
-
-## Financial Projection & Target Income Estimation
-
-Based on the historical analysis (2022–2025), it is possible to estimate a sustainable target income aligned with:
-
-- Fixed cost structure  
-- Desired savings rate  
-- Long-term financial objectives  
-
-The analysis suggests that maintaining income growth above expense growth is critical to ensuring financial stability and consistent net savings improvement.
-
----
-
-## Project Status
-
-Completed and publicly available via Tableau Public.
+- Analyse monthly spending patterns within each year
+- Build a more detailed Tableau dashboard with category filtering
+- Update analysis when 2026 full year data is available
 
 ---
 
 ## Author
 
-Gabriela Rijo  
-Aspiring Data Analyst  
-Based in Ireland  
-
+Gabriela Rijo
+Aspiring Data Analyst | Based in Ireland
