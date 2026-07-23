@@ -70,7 +70,7 @@ Performed in Python (Pandas):
 
 ### Interactive Dashboard
 
-👉 [View Dashboard on Tableau Public]([https://public.tableau.com/views/projectpersonalfinances/Finaldashboard?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/gabriela.rijo/viz/projectpersonalfinances_17847969452090/Finaldashboard))
+👉 [View Dashboard on Tableau Public](https://public.tableau.com/views/projectpersonalfinances_17847969452090/Finaldashboard?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
