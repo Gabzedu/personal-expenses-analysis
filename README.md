@@ -59,7 +59,7 @@ Performed in Python (Pandas):
 ### Expenses by Category
 
 <p align="center">
-  <img src="visuals/category_avg_expenses.png" width="700">
+  <img src="visuals/category_expenses.png" width="700">
 </p>
 
 ### Savings Rate Evolution
