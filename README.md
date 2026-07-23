@@ -82,7 +82,6 @@ Performed in Python (Pandas):
 - Rent is the largest expense category at €16,975 — 29% of total spending over four years.
 - Shopping (€8,066) and Groceries (€7,981) are the second and third largest categories.
 - Projects & Studies (€5,296) reflects investment in education and professional development during this period.
-
 - Income growth accelerated significantly from 2023 onwards, coinciding with relocation from Portugal to Ireland and increased working hours. 
   This structural change is reflected in both income levels and spending patterns across categories.
 
